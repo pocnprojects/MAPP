@@ -38,6 +38,7 @@
     "react-native": "0.71.8",
     "react-native-camera": "^4.2.1",
     "react-native-contacts": "^7.0.5",
+    "react-native-device-info": "^10.6.0",
     "react-native-elements": "^3.4.3",
     "react-native-permissions": "^3.8.0",
     "react-native-qrcode-scanner": "^1.5.5",

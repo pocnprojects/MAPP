@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
         //lineHeight: 38,
         color: '#FFFFFF',
         paddingLeft: 10,
-        alignSelf: 'flex-start',
+        alignSelf: 'flex-start'
         //fontSize: normalize(24)
     }
 })

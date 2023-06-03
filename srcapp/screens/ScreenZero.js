@@ -6,6 +6,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import Contacts from "react-native-contacts";
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {request, check, PERMISSIONS, RESULTS} from 'react-native-permissions';
+import DeviceInfo from 'react-native-device-info';
 
 import commonStyles, { normalize } from '../stylesheet/common'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
@@ -25,6 +26,15 @@ import SignUpScreen from './SignUpScreen'
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 export default function ScreenZero({ navigation }) {
+
+    const [deviceId, setDeviceId] = useState('');
+
+    useEffect(() => {
+        let uniqueId = DeviceInfo.getUniqueId();
+        setDeviceId(uniqueId);
+        console.log("uniqueId", uniqueId._j)
+        console.log("deviceId", deviceId._j)
+    }, []);
 
     return (
         <SafeAreaView style={styles.rowContainer}>
@@ -50,7 +60,11 @@ export default function ScreenZero({ navigation }) {
             </View>
 
             <View style={{flex:1}}/>
+            <Text style={styles.textStyle}>
+              {deviceId._j}
+            </Text>
 
+           
         </SafeAreaView>
     )}
 
@@ -98,3 +112,4 @@ const styles = StyleSheet.create({
         color: '#FFFFFF'
     }
 })
+
