@@ -8,7 +8,7 @@ const compileNodeModules = [
 ].map((moduleName) => path.resolve(appDirectory, `node_modules/${moduleName}`));
 
 const imageLoaderConfiguration = {
-  test: /\.(gif|jpe?g|png)$/,
+  test: /\.(gif|jpe?g|png|svg)$/,
   use: {
     loader: 'url-loader',
     options: {

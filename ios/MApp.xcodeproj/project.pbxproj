@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		6AEA246D77F4CE001356E182 /* libPods-MApp-MAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 241E8094C4984F0939483A14 /* libPods-MApp-MAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8B191824FA7A0C91AA1F2F36 /* libPods-MApp-MAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B1F63B63882EB10719F706 /* libPods-MApp-MAppTests.a */; };
-		FB1498A08E991098DB710AEE /* libPods-MApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BE70F8DEF08AC72E318E68 /* libPods-MApp.a */; };
+		C7F4BC3988611E1F5CCB3460 /* libPods-MApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B24EC1EC8DBED1CADAF18CF5 /* libPods-MApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +36,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MApp/main.m; sourceTree = "<group>"; };
-		161AB7730978979639A7FD19 /* Pods-MApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MApp.debug.xcconfig"; path = "Target Support Files/Pods-MApp/Pods-MApp.debug.xcconfig"; sourceTree = "<group>"; };
-		31BE70F8DEF08AC72E318E68 /* libPods-MApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44B1F63B63882EB10719F706 /* libPods-MApp-MAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MApp-MAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69621AEA172421EA5E1D372E /* Pods-MApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MApp.release.xcconfig"; path = "Target Support Files/Pods-MApp/Pods-MApp.release.xcconfig"; sourceTree = "<group>"; };
+		241E8094C4984F0939483A14 /* libPods-MApp-MAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MApp-MAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4361C168390C4FA85E44827C /* Pods-MApp-MAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MApp-MAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9436307C25383283C37BBC64 /* Pods-MApp-MAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MApp-MAppTests.release.xcconfig"; path = "Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		902ECA9CBE958112E48AFC50 /* Pods-MApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MApp.debug.xcconfig"; path = "Target Support Files/Pods-MApp/Pods-MApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9F778D9928483C21AEE9E463 /* Pods-MApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MApp.release.xcconfig"; path = "Target Support Files/Pods-MApp/Pods-MApp.release.xcconfig"; sourceTree = "<group>"; };
+		B24EC1EC8DBED1CADAF18CF5 /* libPods-MApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA5FF2FE2CC07DE850AE883 /* Pods-MApp-MAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MApp-MAppTests.release.xcconfig"; path = "Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EF7E143689A85CD5642118DC /* Pods-MApp-MAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MApp-MAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B191824FA7A0C91AA1F2F36 /* libPods-MApp-MAppTests.a in Frameworks */,
+				6AEA246D77F4CE001356E182 /* libPods-MApp-MAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB1498A08E991098DB710AEE /* libPods-MApp.a in Frameworks */,
+				C7F4BC3988611E1F5CCB3460 /* libPods-MApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				31BE70F8DEF08AC72E318E68 /* libPods-MApp.a */,
-				44B1F63B63882EB10719F706 /* libPods-MApp-MAppTests.a */,
+				B24EC1EC8DBED1CADAF18CF5 /* libPods-MApp.a */,
+				241E8094C4984F0939483A14 /* libPods-MApp-MAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				161AB7730978979639A7FD19 /* Pods-MApp.debug.xcconfig */,
-				69621AEA172421EA5E1D372E /* Pods-MApp.release.xcconfig */,
-				EF7E143689A85CD5642118DC /* Pods-MApp-MAppTests.debug.xcconfig */,
-				9436307C25383283C37BBC64 /* Pods-MApp-MAppTests.release.xcconfig */,
+				902ECA9CBE958112E48AFC50 /* Pods-MApp.debug.xcconfig */,
+				9F778D9928483C21AEE9E463 /* Pods-MApp.release.xcconfig */,
+				4361C168390C4FA85E44827C /* Pods-MApp-MAppTests.debug.xcconfig */,
+				CEA5FF2FE2CC07DE850AE883 /* Pods-MApp-MAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MAppTests" */;
 			buildPhases = (
-				8D31205EA266A1B169EFA3F0 /* [CP] Check Pods Manifest.lock */,
+				584B2712FE9857CD2E40F2D7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				7E01059851C1EF1803E54974 /* [CP] Embed Pods Frameworks */,
-				48AFE34A96C17F276DC44894 /* [CP] Copy Pods Resources */,
+				678EB823E8C21545D2832EAC /* [CP] Embed Pods Frameworks */,
+				88CA5EA81EAE3293DB6DD250 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MApp" */;
 			buildPhases = (
-				F342E66E3DF9C595004F6E99 /* [CP] Check Pods Manifest.lock */,
+				58B2DEB14BA7F2F09C385E13 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				D0D1ECE0257D414A6604EDE0 /* [CP] Embed Pods Frameworks */,
-				21BF485C64D4B3A998908A22 /* [CP] Copy Pods Resources */,
+				38D150FF5A0C510541D23298 /* [CP] Embed Pods Frameworks */,
+				E883AD70E8CDD3B582129913 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,58 +266,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		21BF485C64D4B3A998908A22 /* [CP] Copy Pods Resources */ = {
+		38D150FF5A0C510541D23298 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		48AFE34A96C17F276DC44894 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7E01059851C1EF1803E54974 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8D31205EA266A1B169EFA3F0 /* [CP] Check Pods Manifest.lock */ = {
+		584B2712FE9857CD2E40F2D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,24 +305,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D0D1ECE0257D414A6604EDE0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F342E66E3DF9C595004F6E99 /* [CP] Check Pods Manifest.lock */ = {
+		58B2DEB14BA7F2F09C385E13 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -376,6 +325,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		678EB823E8C21545D2832EAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88CA5EA81EAE3293DB6DD250 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MApp-MAppTests/Pods-MApp-MAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E883AD70E8CDD3B582129913 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MApp/Pods-MApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -430,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF7E143689A85CD5642118DC /* Pods-MApp-MAppTests.debug.xcconfig */;
+			baseConfigurationReference = 4361C168390C4FA85E44827C /* Pods-MApp-MAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +457,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9436307C25383283C37BBC64 /* Pods-MApp-MAppTests.release.xcconfig */;
+			baseConfigurationReference = CEA5FF2FE2CC07DE850AE883 /* Pods-MApp-MAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,7 +481,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 161AB7730978979639A7FD19 /* Pods-MApp.debug.xcconfig */;
+			baseConfigurationReference = 902ECA9CBE958112E48AFC50 /* Pods-MApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -508,7 +508,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69621AEA172421EA5E1D372E /* Pods-MApp.release.xcconfig */;
+			baseConfigurationReference = 9F778D9928483C21AEE9E463 /* Pods-MApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

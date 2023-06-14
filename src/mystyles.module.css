@@ -1,0 +1,111 @@
+.rowContainer {
+  position:  relative;
+  width:  390px;
+  height:  844px;
+  display:  flex;
+  flex-direction: column;
+  align-items:  center;
+  background-color:#385998;
+  color: #FFFFFF;
+}
+.itemQcIcon {
+  order: 0;
+  align-self: center;
+  margin-top:50px;
+  height: 211px;
+  width: 166px;
+}
+.itemQcTitle {
+  order: 1;
+  align-self: center;
+  margin-top:10px;
+  margin-bottom:50px;
+  font-weight: 700px;
+  font-style: normal;   
+  font-size: 64px;
+  line-height: 75px;
+  color: #FCD589;
+}
+.itemDefDefineText {
+  order: 2;
+  align-self: center;
+  font-weight: 200px;
+  font-style: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.itemButtonSmallest {
+  order: 3;
+  align-self: center;
+  width: 366px;
+  height: 25px;
+  background-color: #385998;
+  border: none;
+  text-align: center;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.rowContainerTwo {
+  position:  relative;
+  width:  390px;
+  height:  844px;
+  display:  flex;
+  flex-direction: column;
+  align-items:  center;
+  background-color:#FFFFFF;
+  color: #385998;
+  padding-top:200px;
+}
+.myDiv{
+  order: 0;
+  display:  flex;
+  flex-direction: row;
+  width: 90%;
+  background-color: #385998;
+  border: 2px solid #385998;
+  border-radius: 7px;
+}  
+.lalign {order: 0; width: 70%;  height: 90px; align-self:flex-start;}
+.ralign {order: 1; width: 30%;  height: 90px; align-self:flex-end; background-color: #385998;}
+.buttonLike {
+  width: 100%;
+  height: 100%;
+  padding-left: 5 px;
+  padding-top: 5 px;
+  align-content: center;
+  font-weight: 200px;
+  font-style: normal;
+  font-size: 32px;
+  color: #FFFFFF;
+  background-color: #385998;
+}
+.itemtriangleBackward {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-style: solid;
+  border-left-width: 30px;
+  border-right-width: 30px;
+  border-bottom-width: 40px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: #FFFFFF;
+  transform : rotate(180deg);
+  align-self: flex-end;
+}
+.image-button {
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  width: 366px;
+  height: 25px;
+  background-color:#FFFFFF;
+  border: none;
+}
+.image-button img {
+  height: 90px;
+  margin-right: 10px;
+}
+
